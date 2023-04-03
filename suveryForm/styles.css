@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  #description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #survey-form {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  #submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #3e8e41;
+  }
+  This CSS file applies basic styles to the various form elements in the HTML file, such as input fields, labels, select dropdowns, radio buttons, checkboxes, and the submit button. You can modify the styles to match your desired design aesthetic.
+  
+  
+  
+  
+  
